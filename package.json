@@ -38,7 +38,9 @@
         "webpack-cli": "^4.9.2",
         "webpack-dev-server": "^4.8.1",
         "webpack-glsl-loader": "^1.0.1",
-        "yargs": "^17.4.1"
+        "yargs": "^17.4.1",
+        "three": "^0.153.0",
+        "@types/three": "^0.152.0"
     },
     "scripts": {
         "build": "webpack build --output-clean",
