@@ -115,10 +115,9 @@ function initUI(): void {
 
     const author2 = ui.input.text({ label: 'Author ID 2' });
 
-    const template = ui.input.text({
-        label: 'Template',
-        value: './template'
-    });
+    let templateDir: string;
+    const template = ui.input.button({ label: 'Template' });
+    selectFs(template, 'Choose template...', 'f', (d) => templateDir = d);
 
     const theme = ui.input.select({
         label: 'Theme',
@@ -148,7 +147,7 @@ function initUI(): void {
             '-c', config.value,
             '-d', dir,
             '-l', lecture.value,
-            '-t', template.value,
+            '-t', templateDir,
             '--theme', theme.value,
             '-a'
         ];
