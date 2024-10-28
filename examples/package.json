@@ -4,6 +4,6 @@
     "devDependencies": {
         "@lukaswagner/web-ui": "^1.8.1",
         "rxjs": "^7.4.0",
-        "webgl-operate": "^0.7.5"
+        "webgl-operate": "^0.8.0"
     }
 }
