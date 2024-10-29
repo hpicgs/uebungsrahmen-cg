@@ -1,4 +1,4 @@
-# Übungen 3D-Computergrafik II
+# Übungen 3D-Computergrafik
 
 ## Aufsetzen des Übungsrahmens
 Der Übungsrahmen wird für alle kommenden Übungsaufgaben verwendet und stellt z.B. Funktionalitäten für I/O und User Interface bereit. Der Übungsrahmen wurde unter Windows, Linux und MacOS getestet.
@@ -22,8 +22,8 @@ Die folgenden Schritte können entweder im UI, oder über die Kommandozeile durc
 
 >***Initialisierung mittels UI:***
 Das UI öffnen, indem in der Kommandozeile im "uebungsrahmen-cg"-Ordner `npm run ui` ausgeführt wird. Dann im "Initialize"-Tab die benötigten Informationen eintragen:
->  - Configuration name: *cg2*
->  - Lecture title: *Computergrafik II*
+>  - Configuration name: *cg*
+>  - Lecture title: *Computergrafik*
 >  - Directory: Wähle einen beliebigen Ordner, in dem du die Übungsaufgaben bearbeiten willst
 >  - Author ID 1/2: Eure Matrikelnummern
 >  - Template: Wählt die `template.tar.gz`
@@ -37,7 +37,7 @@ Das UI öffnen, indem in der Kommandozeile im "uebungsrahmen-cg"-Ordner `npm run
 >```sh
 >./uebung.bat init \
 >    --directory <working directory> \
->    --lecture "Computergrafik II" \
+>    --lecture "Computergrafik" \
 >    --authors <matriculation number 1> <matriculation number 2> \
 >    --template <path to template.tar.gz>
 >```
