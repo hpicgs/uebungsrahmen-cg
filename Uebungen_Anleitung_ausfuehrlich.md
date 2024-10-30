@@ -7,6 +7,7 @@ Folgende Schritte müssen durchlaufen werden, um den Übungsrahmen (einmalig) vo
 
 **1. Benötigte Software installieren.**
 - Git installieren. Installationsanweisungen können [hier](https://git-scm.com/) gefunden werden. Git sollte danach über die Kommandozeile verfügbar sein (kann getestet werden, indem z.B. `git --version` in der Kommandozeile ausgeführt wird).
+- Git LFS installieren (siehe [hier](https://git-lfs.com/)) und mit `git lfs install` in der Kommandozeile initialisieren. Man kann mit `git lfs -v` testen, ob die Installation erfolgreich war.
 - Node installieren (siehe [hier](https://nodejs.org/en)). Es kann eine beliebige Version gewählt werden; von uns getestet sind die Versionen 14 bis 22. Node sollte danach in der Kommandozeile verfügbar sein (kann getestet werden, indem z.B. `npm -v` in der Kommandozeile ausgeführt wird).
 
 **2. Übungsrahmen herunterladen**
